@@ -1,0 +1,98 @@
+body{
+    background-color: rgb(241, 204, 247);
+    margin: 20px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 10px;
+}
+/*h1{
+    font-size: 60px;
+    text-align: center;
+}
+    */
+header{
+    font-size: 40px;
+    text-align: center;
+    background-color: lightpink;
+    border: 2px solid black;
+    box-shadow: -5px -5px 7px gray;
+    
+}
+p{
+    font-size: 25px;
+    padding-left: 15px;
+}
+figure{
+    display: flex;
+    margin: -5px;
+    float: left;
+    padding-bottom: 20px;
+}
+.akapit{
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 25px;
+    margin-bottom: 15px;
+    padding: 0px 20px;
+    background-color: lightpink;
+    border-top: 5px solid black;
+    border-left: 3px solid black;
+    border-right: 2px solid black;
+    border-bottom: 2px solid black;
+    box-shadow: -5px -5px 7px gray;
+    border-top-left-radius: 2em;
+    border-top-right-radius: 1em;
+    border-bottom-right-radius: 1em;
+}
+img{
+    margin: 10px;
+}
+#lista{
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 25px;
+    margin-bottom: 15px;
+    padding: 0px 20px;
+    background-color: lightpink;
+    border: 3px solid black;
+    font-size: 25px;
+    box-shadow: -5px -5px 7px gray;
+    border-radius: 2em;
+}
+#lista li{
+    list-style-type: circle;
+}
+#lista li ul li{
+    list-style-type: decimal;
+}
+#pytanie{
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 25px;
+    margin-bottom: 15px;
+    padding: 0px 20px;
+    background-color: lightpink;
+    border: 2px solid black;
+    box-shadow: -5px -5px 7px gray;
+    height: auto;
+}
+#pytanie button{
+    background-color: rgb(233, 138, 201);
+    text-align: center;
+    border-radius: 10px;
+    font-size: 130%;
+    text-align: center;
+    border: 2px solid black;
+    display: inline-block;
+}
+#pytanie button:hover{
+    background-color: rgb(226, 98, 183);
+}
+a{
+    margin-left: 20%;
+    margin-right: 20%;
+    position:relative;
+    
+}
+#pytanie p#pyt{
+    text-align: center;
+}
